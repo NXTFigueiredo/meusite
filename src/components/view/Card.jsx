@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const CardContainer = styled.div`
     background-color: white;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgb(251, 255, 0);
+    box-shadow: 2px 2px 10px rgb(255, 0, 0);
     padding: 20px;
     width: 100%
     max-width: 300px;
@@ -25,12 +25,12 @@ const Texto = styled.p`
     font-size: 14px;
     color: #00000;
 `
-export default function Card(){
-  return(
+export default function Card({ img, titulo, texto }) {
+  return (
     <CardContainer>
-        <Img src ="https://i.pinimg.com/1200x/d1/37/f2/d137f2710c7d457e60e409b53ccc3a99.jpg" />
-        <Titulo>Doeu quando você caiu do céu?</Titulo>
-        <Texto>Porque você parece um anjo.</Texto>
+      <Img src={img} />
+      <Titulo>{titulo}</Titulo>
+      <Texto>{texto}</Texto>
     </CardContainer>
-  )
+  );
 }

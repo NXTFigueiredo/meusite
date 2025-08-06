@@ -21,11 +21,26 @@ function App() {
   return (
   <>
   <GlobalStyle/>
-  <h1 style={{textAlign: 'center', marginBottom: '4px', color: '#fbff00'}}>Carinha de Anjo</h1>
+  <h1 style={{textAlign: 'center', marginBottom: '4px', color: '#00159e'}}>NASA Technology</h1>
   <Container>
-    <Card/>
-    <Card/>
-    <Card/>
+    <Card
+  img="https://images7.kabum.com.br/produtos/fotos/sync_mirakl/615577/xlarge/Notebook-Gamer-Acer-Nitro-V-Intel-Core-i7-13-Gen-16GB-SSD-512GB-RTX4050-Tela-15-6-Full-HD-Linux-Gutta-Anv15-51-7037_1751663078.jpg"
+  titulo="Notebook Gamer"
+  texto="Acer Nitro V"
+/>
+
+<Card
+  img="https://images8.kabum.com.br/produtos/fotos/627458/teclado-mecanico-gamer-machenike-k500-b61-rgb-switch-brown-layout-61-teclas-abnt2-cinza-k500-b61_1746534964_gg.jpg"
+  titulo="Teclado"
+  texto="Mecânico Gamer"
+/>
+
+<Card
+  img="https://images6.kabum.com.br/produtos/fotos/sync_mirakl/263576/xlarge/Controle-Sem-Fio-Xbox-Pulse-Red-Qau-00066_1753373981.jpg"
+  titulo="Controle XBOX"
+  texto="Sem Fio - Pulse Red"
+/>
+
   </Container>
   </>
   );
