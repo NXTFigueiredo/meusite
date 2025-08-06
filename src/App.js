@@ -21,7 +21,7 @@ function App() {
   return (
   <>
   <GlobalStyle/>
-  <h1 style={{textAlign: 'center', marginBottom: '40px'}}>Carinha de Anjo</h1>
+  <h1 style={{textAlign: 'center', marginBottom: '4px', color: '#fbff00'}}>Carinha de Anjo</h1>
   <Container>
     <Card/>
     <Card/>

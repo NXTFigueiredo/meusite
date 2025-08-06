@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
 
 body{
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color:rgba(53, 53, 53, 0.67);
     color: #333;
 }
 
