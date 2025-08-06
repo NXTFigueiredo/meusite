@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const CardContainer = styled.div`
     background-color: white;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 10px rgb(251, 255, 0);
     padding: 20px;
     width: 100%
     max-width: 300px;
